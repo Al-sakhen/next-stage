@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     @vite([ 'resources/js/app.js' , 'resources/css/app.css'])
+    @stack('css')
 </head>
 <body>
     {{-- Navbar --}}
